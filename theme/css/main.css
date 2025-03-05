@@ -1,0 +1,185 @@
+/*
+    Name: Custom Pelican Theme
+    Date: March 2025
+    Description: A refined, modern Pelican theme with improved styling.
+    Version: 1.2
+    License: MIT
+*/
+
+/* Imports */
+@import url("reset.css");
+@import url("pygment.css");
+@import url("typogrify.css");
+@import url("fonts.css");
+
+/***** Global *****/
+body {
+    background: #F4F6F6;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Headings */
+h1 { font-size: 2.4em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    border: 1px solid #DDDDDD;
+    margin: 20px 0;
+}
+
+/* Links */
+a {
+    color: #1B74E4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #1B74E4;
+    color: #fff;
+    padding: 2px;
+}
+
+/* Lists */
+ul {
+    list-style: circle;
+    margin-left: 2em;
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 2em;
+}
+
+/***** Layout *****/
+.body {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Header */
+#banner {
+    background: #2C3E50;
+    color: #FFFFFF;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+/* Navigation */
+#banner nav {
+    background: #1B1F24;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#banner nav a {
+    color: #F5F5F5;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+#banner nav a:hover {
+    background: #1B74E4;
+    border-radius: 4px;
+}
+
+/* Content */
+#content {
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+#contentinfo {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Blog Posts */
+.hentry {
+    border-bottom: 2px solid #ddd;
+    padding: 20px 0;
+}
+
+.entry-title {
+    font-size: 2em;
+    color: #2C3E50;
+}
+
+.entry-title a {
+    color: #1B74E4;
+}
+
+.entry-title a:hover {
+    color: #FFFFFF;
+    background-color: #1B74E4;
+    padding: 2px;
+}
+
+/* About Section */
+#about {
+    background: #F8F9FA;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#about strong {
+    color: #1B74E4;
+    font-size: 1.3em;
+}
+
+/* Comments */
+#comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+#comments-list blockquote {
+    background: #F5F5F5;
+    padding: 15px;
+    border-left: 5px solid #1B74E4;
+}
+
+/* Buttons */
+button {
+    background: #1B74E4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #155A9A;
+}
